@@ -80,7 +80,13 @@ const danilo = {
       <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>MySQL</td>
+      <td>React</td>
+      <ul>
+          <li>Redux</li>
+          <li>Hooks</li>
+          <li>Context API</li>
+          <li>React Router</li>
+        </ul>
       <td>3 meses</td>
       <td>Concluído e em evolução :rocket:</td>
     </tr>
