@@ -54,7 +54,7 @@ const danilo = {
     <tr>
       <td>Python</td>
       <td>3 meses</td>
-      <td>Preciso revisar :wrench:</td>
+      <td style="background-color:yellow">Preciso revisar :wrench:</td>
     </tr>
     <tr>
       <td>React</td>
