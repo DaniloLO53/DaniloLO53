@@ -69,7 +69,13 @@ const danilo = {
       <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>Express</td>
+      <td>Testes</td>
+      <td>
+        <ul>
+          <li>Jest</li>
+          <li>React Testing Libary</li>
+        </ul>
+      </td>
       <td>5 meses</td>
       <td>Concluído e em evolução :rocket:</td>
     </tr>
