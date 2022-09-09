@@ -1,30 +1,29 @@
 <h2> Olá! :smile:, eu sou o Danilo! <img src="./hello.gif" width="50"></h2>
 
-### <img src="https://giphy.com/gifs/9lwr4z6CSzlxC" width="50"> A little more about me...
+### Um pouco sobre mim...
 
 ```javascript
-const anmol = {
-  pronouns: "He" | "Him",
-  code: ["Javascript", "Python", "Java", "PHP"],
-  askMeAbout: ["web dev", "tech", "app dev", "photography"],
-  technologies: {
+const danilo = {
+  linguagens: ["Javascript", "Python"],
+  ferramentas: {
     backEnd: {
-      js: ["Node", "Fastify", "Express"],
+      infraestrutura: ["Docker🐳"],
     },
-    mobileApp: {
-      native: ["Android Development"],
+    frontEnd: {
+      estilo: ["HTML5", "CSS3"],
+      linguagens: ["Javascript ES6"],
+      frameworks: {
+        react: ["Redux, Context API", "Hooks", "Route"],
+      },
     },
-    devOps: ["AWS", "Docker🐳", "Route53", "Nginx"],
-    databases: ["mongo", "MySql", "sqlite"],
-    misc: ["Firebase", "Socket.IO", "selenium", "open-cv", "php", "SuiteApp"],
+    testes: ["RTL", "Jest"],
+    outras: ["Git", "Github"],
   },
-  architecture: [
-    "Serverless Architecture",
-    "Progressive web applications",
-    "Single page applications",
+  emGrupo: [
+    "Experiência com trabalhos em equipe pelo Github",
+    "Metologias Scrum e Kanban",
   ],
-  currentFocus: "Building Robots to ease opertations",
-  funFact:
-    "There are two ways to write error-free programs; only the third one works",
+  focoAtual:
+    "Me desenvolvendo no front-end e começando a aprender ferramentas de back-end",
 };
 ```
