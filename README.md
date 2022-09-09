@@ -30,6 +30,10 @@ const danilo = {
 
 <table>
   <thead>
+    <colgroup>
+      <col span="2" style="background-color:red">
+      <col style="background-color:yellow">
+    </colgroup>
     <tr>
       <th>Skills</th>
       <th>Experiência</th>
