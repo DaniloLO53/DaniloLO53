@@ -53,24 +53,24 @@ const danilo = {
       <td>Preciso revisar :wrench:</td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
+      <td>React</td>
+      <td>3 meses</td>
+      <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
+      <td>Redux</td>
+      <td>2 meses</td>
+      <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
+      <td>Testes</td>
+      <td>5 meses</td>
+      <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
+      <td>Docker</td>
+      <td> Menos de 1 mês </td>
+      <td>Aprendendo :construction:</td>
     </tr>
   </tbody>
   <tfoot>
