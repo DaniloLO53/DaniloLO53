@@ -93,12 +93,12 @@ const danilo = {
       <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>Redux</td>
-      <td>2 meses</td>
-      <td>Concluído e em evolução :rocket:</td>
-    </tr>
-    <tr>
       <td>Python</td>
+      <td>
+        <ul>
+          <li>-</li>
+        </ul>
+      </td>
       <td>3 meses</td>
       <td>Preciso revisar :wrench:</td>
     </tr>
