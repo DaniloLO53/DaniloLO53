@@ -36,13 +36,22 @@ const danilo = {
     </colgroup>
     <tr>
       <th>Skills</th>
+      <th>O que eu sei</th>
       <th>Experiência</th>
       <th>Situação</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>SQL</td>
+      <td>HTML & CSS</td>
+      <td>
+        <ul>
+          <li>HTML semântico</li>
+          <li>CSS responsivo</li>
+          <li>Mobile First</li>
+          <li>Animações</li>
+        </ul>
+      </td>
       <td>10 meses</td>
       <td>Concluído e em evolução :rocket:</td>
     </tr>
