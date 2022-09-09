@@ -52,11 +52,6 @@ const danilo = {
       <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>Python</td>
-      <td>3 meses</td>
-      <td style="text-align:right">Preciso revisar :wrench:</td>
-    </tr>
-    <tr>
       <td>React</td>
       <td>3 meses</td>
       <td>Em evolução :rocket:</td>
@@ -70,6 +65,11 @@ const danilo = {
       <td>Testes</td>
       <td>5 meses</td>
       <td>Em evolução :rocket:</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>3 meses</td>
+      <td>Preciso revisar :wrench:</td>
     </tr>
     <tr>
       <td>Docker</td>
