@@ -56,7 +56,15 @@ const danilo = {
       <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>Node.js</td>
+      <td>JavaScript</td>
+      <td>
+        <ul>
+          <li>Paradigma Funcional</li>
+          <li>ES6</li>
+          <li>Tratamento de erros</li>
+          <li>Requisições à API's</li>
+        </ul>
+      </td>
       <td>9 meses</td>
       <td>Concluído e em evolução :rocket:</td>
     </tr>
