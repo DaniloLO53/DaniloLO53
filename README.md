@@ -96,7 +96,7 @@ const danilo = {
       <td>Python</td>
       <td>
         <ul>
-          <li>-</li>
+          <li>Python Básico</li>
         </ul>
       </td>
       <td>3 meses</td>
@@ -104,6 +104,11 @@ const danilo = {
     </tr>
     <tr>
       <td>Docker</td>
+      <td>
+        <ul>
+          <li>-</li>
+        </ul>
+      </td>
       <td> Menos de 1 mês </td>
       <td>Aprendendo :construction:</td>
     </tr>
