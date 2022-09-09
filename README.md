@@ -28,7 +28,7 @@ const danilo = {
 };
 ```
 
-- ![#ffffff](https://via.placeholder.com/15/f03c15/f03c15.png)
+- ![#ffffff](https://via.placeholder.com/15/ffffff/ffffff.png)
 
 <table>
   <thead>
