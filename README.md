@@ -42,13 +42,18 @@ const danilo = {
   </thead>
   <tbody>
     <tr>
+      <td>CSS / HTML</td>
+      <td>10 meses</td>
+      <td>Em evolução :rocket:</td>
+    </tr>
+    <tr>
       <td>JavaScript</td>
       <td>9 meses</td>
       <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>CSS / HTML</td>
-      <td>10 meses</td>
+      <td>Testes</td>
+      <td>5 meses</td>
       <td>Em evolução :rocket:</td>
     </tr>
     <tr>
@@ -59,11 +64,6 @@ const danilo = {
     <tr>
       <td>Redux</td>
       <td>2 meses</td>
-      <td>Em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>Testes</td>
-      <td>5 meses</td>
       <td>Em evolução :rocket:</td>
     </tr>
     <tr>
