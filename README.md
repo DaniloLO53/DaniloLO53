@@ -28,8 +28,6 @@ const danilo = {
 };
 ```
 
-- ![#ffffff](https://via.placeholder.com/15/2a2a2a/2a2a2a.png)
-
 <table>
   <thead>
     <colgroup>
