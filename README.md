@@ -40,17 +40,17 @@ const danilo = {
     <tr>
       <td>JavaScript</td>
       <td>9 meses</td>
-      <td>Em desenvolvimento :rocket:</td>
+      <td>Em evolução :rocket:</td>
     </tr>
     <tr>
       <td>CSS / HTML</td>
       <td>10 meses</td>
-      <td>Em desenvolvimento :rocket:</td>
+      <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
+      <td>Python</td>
+      <td>3 meses</td>
+      <td>Preciso revisar :wreck:</td>
     </tr>
     <tr>
       <td>1</td>
