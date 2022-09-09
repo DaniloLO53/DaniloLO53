@@ -42,22 +42,22 @@ const danilo = {
   </thead>
   <tbody>
     <tr>
-      <td>CSS / HTML</td>
+      <td>SQL</td>
       <td>10 meses</td>
       <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>JavaScript</td>
+      <td>Node.js</td>
       <td>9 meses</td>
       <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>Testes</td>
+      <td>Express</td>
       <td>5 meses</td>
       <td>Em evolução :rocket:</td>
     </tr>
     <tr>
-      <td>React</td>
+      <td>MySQL</td>
       <td>3 meses</td>
       <td>Em evolução :rocket:</td>
     </tr>
@@ -75,64 +75,6 @@ const danilo = {
       <td>Docker</td>
       <td> Menos de 1 mês </td>
       <td>Aprendendo :construction:</td>
-    </tr>
-  </tbody>
-  <tfoot>
-  </tfoot>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>Vou aprender 📚</th>
-      <th>Aprendendo :wrench:</th>
-      <th>Concluído e evoluindo :rocket:</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CSS / HTML</td>
-      <td>10 meses</td>
-      <td>Em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>9 meses</td>
-      <td>Em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>Testes</td>
-      <td>5 meses</td>
-      <td>Em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>React</td>
-      <td>3 meses</td>
-      <td>Em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>Redux</td>
-      <td>2 meses</td>
-      <td>Em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>3 meses</td>
-      <td>Preciso revisar :wrench:</td>
-    </tr>
-    <tr>
-      <td>Docker</td>
-      <td> Menos de 1 mês </td>
-      <td>Aprendendo :construction:</td>
-    </tr>
-    <tr>
-      <td>Docker</td>
-    </tr>
-    <tr>
-      <td>Docker</td>
-    </tr>
-    <tr>
-      <td>Docker</td>
     </tr>
   </tbody>
   <tfoot>
