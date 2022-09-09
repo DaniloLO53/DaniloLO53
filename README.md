@@ -44,27 +44,27 @@ const danilo = {
     <tr>
       <td>SQL</td>
       <td>10 meses</td>
-      <td>Em evolução :rocket:</td>
+      <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
       <td>Node.js</td>
       <td>9 meses</td>
-      <td>Em evolução :rocket:</td>
+      <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
       <td>Express</td>
       <td>5 meses</td>
-      <td>Em evolução :rocket:</td>
+      <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
       <td>MySQL</td>
       <td>3 meses</td>
-      <td>Em evolução :rocket:</td>
+      <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
       <td>Redux</td>
       <td>2 meses</td>
-      <td>Em evolução :rocket:</td>
+      <td>Concluído e em evolução :rocket:</td>
     </tr>
     <tr>
       <td>Python</td>
