@@ -1,4 +1,4 @@
-<h2><img src="./hello.gif" width="30"/> Olá! :smile:, eu sou o Danilo! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<h2> Olá! :smile:, eu sou o Danilo! <img src="./hello.gif" width="50"></h2>
 
 ### 📫 Like to meet me?
 
