@@ -50,7 +50,7 @@ const danilo = {
     <tr>
       <td>Python</td>
       <td>3 meses</td>
-      <td>Preciso revisar :wreck:</td>
+      <td>Preciso revisar :wrench:</td>
     </tr>
     <tr>
       <td>1</td>
