@@ -27,3 +27,22 @@ const danilo = {
     "Me desenvolvendo no front-end e começando a aprender ferramentas de back-end",
 };
 ```
+
+<table>
+  <thead>
+    <tr>
+      <th>Skills</th>
+      <th>Experiência</th>
+      <th>Situação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+  <tfoot>
+  </tfoot>
+</table>
