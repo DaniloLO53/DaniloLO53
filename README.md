@@ -94,7 +94,6 @@ const danilo = {
       <td>CSS / HTML</td>
       <td>10 meses</td>
       <td>Em evolução :rocket:</td>
-      <td>teste</td>
     </tr>
     <tr>
       <td>JavaScript</td>
@@ -125,6 +124,15 @@ const danilo = {
       <td>Docker</td>
       <td> Menos de 1 mês </td>
       <td>Aprendendo :construction:</td>
+    </tr>
+    <tr>
+      <td>Docker</td>
+    </tr>
+    <tr>
+      <td>Docker</td>
+    </tr>
+    <tr>
+      <td>Docker</td>
     </tr>
   </tbody>
   <tfoot>
