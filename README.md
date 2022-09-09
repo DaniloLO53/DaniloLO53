@@ -81,12 +81,14 @@ const danilo = {
     </tr>
     <tr>
       <td>React</td>
-      <ul>
+      <td>
+        <ul>
           <li>Redux</li>
           <li>Hooks</li>
           <li>Context API</li>
           <li>React Router</li>
         </ul>
+      </td>
       <td>3 meses</td>
       <td>Concluído e em evolução :rocket:</td>
     </tr>
