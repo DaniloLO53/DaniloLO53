@@ -36,7 +36,7 @@
           <li>Paradigma Funcional</li>
           <li>ES6</li>
           <li>Tratamento de erros</li>
-          <li>Requisições à API's</li>
+          <li>Requisições a API's</li>
         </ul>
       </td>
       <td>9 meses</td>
