@@ -34,14 +34,14 @@
      <tr>
       <td>:yellow_square: I'm learning</td>
       <td>
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg"></code></a>
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg"></code></a>
+        <a href="#"><code><img height="45" src="./mysql-official.svg"></code></a>
+        <a href="#"><code><img width="45" src="./java.svg"></code></a>
       </td>
      </tr>
      <tr>
       <td>:blue_square: I will learn</td>
       <td>
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg"></code></a>
+        <a href="#"><code><img height="45" src="./docker.svg"></code></a>
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg"></code></a>
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg"></code></a>
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"></code></a>
