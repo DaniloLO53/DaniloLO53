@@ -23,33 +23,59 @@
      <tr>
       <td>:green_square: I have experience with</td>
       <td>
+        <br>
         <a href=""><code><img height="45"   src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg"></code></a>
+        &nbsp; &nbsp;
+        <br>
+        &nbsp;
       </td>
      <tr>
       <td>:yellow_square: I'm learning</td>
       <td>
+        <br>
         <a href="#"><code><img height="45" src="./mysql-official.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="./java-horizontal.svg"></code></a>
+        &nbsp; &nbsp;
+        <br>
+        &nbsp;
       </td>
      </tr>
      <tr>
       <td>:blue_square: I will learn</td>
       <td>
+        <br>
         <a href="#"><code><img height="45" src="./docker.svg"></code></a>
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg"></code></a>
+        &nbsp; &nbsp;
+        <a href="#"><code><img height="45" src="./node.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="./jest.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="./mongo.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="./redis-official.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"></code></a>
+        &nbsp; &nbsp;
         <a href="#"><code><img height="45" src="./aws.svg"></code></a>
+        <br>
+        &nbsp;
       </td>
      </tr>
   </tbody>
