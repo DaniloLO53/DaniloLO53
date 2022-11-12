@@ -8,10 +8,12 @@ Here you will find <b>almost</b> everything I do on programming.
 <!--START_SECTION:waka-->
 
 ```text
-JavaScript   6 hrs 45 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀   92.35 %
-HTML         21 mins         ⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.90 %
-CSS          11 mins         ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.70 %
-Other        0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.05 %
+From: 05 November 2022 - To: 12 November 2022
+
+JavaScript   6 hrs 45 mins   ███████████████████████░░   92.35 %
+HTML         21 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.90 %
+CSS          11 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.70 %
+Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
 ```
 
 <!--END_SECTION:waka-->
