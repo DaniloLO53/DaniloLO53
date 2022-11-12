@@ -35,7 +35,7 @@
       <td>:yellow_square: I'm learning</td>
       <td>
         <a href="#"><code><img height="45" src="./mysql-official.svg"></code></a>
-        <a href="#"><code><img width="45" src="./java.svg"></code></a>
+        <a href="#"><code><img height="45" src="./java-horizontal.svg"></code></a>
       </td>
      </tr>
      <tr>
