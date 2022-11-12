@@ -96,10 +96,7 @@
 <h1>:chart_with_upwards_trend: Analytics for nerds</h1>
 
 [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=DaniloLO53&bg_color=0f0f0f&color=e9e9e9&line=A047F7&point=ffffff&area_color=A047F7&area=true&hide_border=true&custom_title=This+is+my+contribution+history)](https://github.com/ashutosh00710/github-readme-activity-graph)
-  
- [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DaniloLO53)](https://github.com/anuraghazra/github-readme-stats)
-
-
+ 
 <a href="#">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&theme=dark&layout=compact" />
 </a>
