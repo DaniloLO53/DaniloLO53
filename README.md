@@ -74,11 +74,11 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53" />
 </a>
 <a href="#">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=trueshow_icons=true&hide_title=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=true&show_icons=true&hide_title=false" />
 </a>
-
-
-
+<br>
+<br>
+<b>WakaTime data:</b>
 <!--START_SECTION:waka-->
 
 ```text
