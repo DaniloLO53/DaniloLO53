@@ -44,11 +44,12 @@
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg"></code></a>
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg"></code></a>
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg"></code></a>
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"></code></a>
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg"></code></a>
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original.svg"></code></a>
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"></code></a>
         <a href="#"><code><img height="45" src="./jest.svg"></code></a>
+        <a href="#"><code><img height="45" src="./mongo.svg"></code></a>
+        <a href="#"><code><img height="45" src="./redis-official.svg"></code></a>
+        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"></code></a>
+        <a href="#"><code><img height="45" src="./aws.svg"></code></a>
       </td>
      </tr>
   </tbody>
