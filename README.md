@@ -98,12 +98,14 @@
 [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=DaniloLO53&bg_color=0f0f0f&color=e9e9e9&line=A047F7&point=ffffff&area_color=A047F7&area=true&hide_border=true&custom_title=This+is+my+contribution+history)](https://github.com/ashutosh00710/github-readme-activity-graph)
  
 <div align="center">
-  <a href="#">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&theme=dark&layout=compact" />
-  </a>
-  <a><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=DaniloLO53&layout=compact&theme=dark&custom_title=Wakatime+Stats+(last+7+days)&include_all_commits=true" alt="DaniloLO53" />
-  </a>
-  <a href="#">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=true&show_icons=true&hide_title=false&theme=dark"   />
-</a>
+  <div>
+    <a href="#">
+      <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&theme=dark&layout=compact" />
+    </a>
+    <a><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=DaniloLO53&layout=compact&theme=dark&custom_title=Wakatime+Stats+(last+7+days)&include_all_commits=true" alt="DaniloLO53" />
+    </a>
+   </div>
+   <a href="#">
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=true&show_icons=true&hide_title=false&theme=dark"   />
+   </a>
 </div>
