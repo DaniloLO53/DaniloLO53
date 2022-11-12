@@ -4,7 +4,7 @@
 
 <div align="center">
   <h1>Web Developer, Math Lover, Brazilian :brazil:</h1>
-  <h1>Some infos about me :point_down:
+  <h1>:point_down: Some infos about me
 </div>
 <ul>
   <li><h3>I'm currently majoring Mechanical Engineering at UFRJ</h3></li>
