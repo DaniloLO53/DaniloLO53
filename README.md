@@ -2,8 +2,14 @@
 
 Here you will find <b>almost</b> everything I do on programming.
 <br>
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=trueshow_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53)](https://github.com/anuraghazra/github-readme-stats)
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=trueshow_icons=true&hide_title=true" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&layout=compact" />
+</a>
+
 
 <!--START_SECTION:waka-->
 
