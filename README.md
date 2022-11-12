@@ -1,110 +1,25 @@
-<h2> Olá! :smile:, eu sou o Danilo! <img src="./hello.gif" width="50"></h2>
+<h2> Hello! :smile:, Danilo here! <img src="./hello.gif" width="50"></h2>
 
-### Minhas habilidades...
+Here you will find <b>almost</b> everything I do on programming.
+<br>
 
-<table>
-  <thead>
-    <colgroup>
-      <col span="2" style="background-color:red">
-      <col style="background-color:yellow">
-    </colgroup>
-    <tr>
-      <th>Skills</th>
-      <th>O que eu sei</th>
-      <th>Experiência</th>
-      <th>Situação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>HTML & CSS</td>
-      <td>
-        <ul>
-          <li>HTML semântico</li>
-          <li>CSS responsivo</li>
-          <li>Mobile First</li>
-          <li>Animações</li>
-        </ul>
-      </td>
-      <td>10 meses</td>
-      <td>Concluído e em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>
-        <ul>
-          <li>Paradigma Funcional</li>
-          <li>ES6</li>
-          <li>Tratamento de erros</li>
-          <li>Requisições a API's</li>
-        </ul>
-      </td>
-      <td>9 meses</td>
-      <td>Concluído e em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>Testes</td>
-      <td>
-        <ul>
-          <li>Jest</li>
-          <li>React Testing Libary</li>
-        </ul>
-      </td>
-      <td>5 meses</td>
-      <td>Concluído e em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>React</td>
-      <td>
-        <ul>
-          <li>Redux</li>
-          <li>Hooks</li>
-          <li>Context API</li>
-          <li>React Router</li>
-        </ul>
-      </td>
-      <td>3 meses</td>
-      <td>Concluído e em evolução :rocket:</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>
-        <ul>
-          <li>Python Básico</li>
-        </ul>
-      </td>
-      <td>3 meses</td>
-      <td>Preciso revisar :wrench:</td>
-    </tr>
-    <tr>
-      <td>Docker</td>
-      <td>
-        <ul>
-          <li>-</li>
-        </ul>
-      </td>
-      <td> Menos de 1 mês </td>
-      <td>Aprendendo :construction:</td>
-    </tr>
-  </tbody>
-  <tfoot>
-  </tfoot>
-</table>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=trueshow_icons=true&hide_title=true" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&layout=compact" />
+</a>
 
-### Um pouco sobre mim...
 
-```javascript
-const danilo = {
-  hobbies: [
-    "Aprender física (mais especificamente, mecânica de partículas)",
-    "Aprender sobre criptomoedas e metaverso",
-    "Comer chocolate",
-  ],
-  focoAtual:
-    "Me desenvolvendo no front-end e começando a aprender ferramentas de back-end",
-  curiosidades: {
-    "Faço Engenharia Mecânica na Universidade Federal do Rio de Janeiro",
-    "Amo filmes de suspense / terror",
-  }
-};
+<!--START_SECTION:waka-->
+
+```text
+From: 05 November 2022 - To: 12 November 2022
+
+JavaScript   6 hrs 45 mins   ███████████████████████░░   92.35 %
+HTML         21 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.90 %
+CSS          11 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.70 %
+Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
 ```
+
+<!--END_SECTION:waka-->
