@@ -49,11 +49,6 @@
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original.svg"></code></a>
         <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"></code></a>
         <a href="#"><code><img height="45" src="./jest.svg"></code></a>
-        <a href="#"><code><img height="45" src="./jest.svg"></code></a>
-        <a href="#"><code><img height="45" src="./jest.svg"></code></a>
-        <a href="#"><code><img height="45" src="./jest.svg"></code></a>
-        <a href="#"><code><img height="45" src="./jest.svg"></code></a>
-        <a href="#"><code><img height="45" src="./jest.svg"></code></a>
       </td>
      </tr>
   </tbody>
