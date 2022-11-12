@@ -21,7 +21,7 @@
     </tr>
   <tbody>
      <tr>
-      <td>:green_square: I have experience with</td>
+      <td>:green_square: <b>I have experience with</b></td>
       <td>
         <br>
         <a href=""><code><img height="45"   src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code></a>
@@ -42,7 +42,7 @@
         &nbsp;
       </td>
      <tr>
-      <td>:yellow_square: I'm learning</td>
+      <td>:yellow_square: <b>I'm learning</b></td>
       <td>
         <br>
         <a href="#"><code><img height="45" src="./mysql-official.svg"></code></a>
@@ -54,7 +54,7 @@
       </td>
      </tr>
      <tr>
-      <td>:blue_square: I will learn</td>
+      <td>:blue_square: <b>I will learn</b></td>
       <td>
         <br>
         <a href="#"><code><img height="45" src="./docker.svg"></code></a>
@@ -97,24 +97,13 @@
 
 [![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=DaniloLO53&bg_color=0f0f0f&color=e9e9e9&line=A047F7&point=ffffff&area_color=A047F7&area=true&hide_border=true&custom_title=This+is+my+contribution+history)](https://github.com/ashutosh00710/github-readme-activity-graph)
  
-<a href="#">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&theme=dark&layout=compact" />
+<div align="center">
+  <a href="#">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&theme=dark&layout=compact" />
+  </a>
+  <a><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=DaniloLO53&layout=compact&theme=dark&custom_title=Wakatime+Stats+(last+7+days)&include_all_commits=true" alt="DaniloLO53" />
+  </a>
+  <a href="#">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=true&show_icons=true&hide_title=false&theme=dark"   />
 </a>
-<a href="#">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=true&show_icons=true&hide_title=false&theme=dark" />
-</a>
-<br>
-<br>
-<b>WakaTime data:</b>
-<!--START_SECTION:waka-->
-
-```text
-From: 05 November 2022 - To: 12 November 2022
-
-JavaScript   6 hrs 45 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜   92.35 %
-HTML         21 mins         🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.90 %
-CSS          11 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.70 %
-Other        0 secs          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.05 %
-```
-
-<!--END_SECTION:waka-->
+</div>
