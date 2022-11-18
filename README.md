@@ -14,7 +14,7 @@
 
 <h1> :technologist: My experience </h1>
 
-<table>
+<table width="100">
     <tr>
       <td align="center"><h4>:heavy_check_mark: Level</h4></td>
       <td align="center"><h4>🛠️ Tools</h4></td>
@@ -24,19 +24,23 @@
       <td>:green_square: <b>I have experience with</b></td>
       <td>
         <br>
-        <a href=""><code><img height="45"   src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code></a>
+        <a href=""><img height="45"   src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code></a>
+        <a href="#"><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code></a>
+        <a href="#"><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg"></code></a>
+        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg"></code></a>
+        <a href="#"><img height="45" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg"></code></a>
+        <a href="#"><img height="45" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg"></code></a>
+        <a href="#"><img height="35" src="https://github.com/prplx/svg-logos/blob/master/svg/redux.svg"></a>
+        &nbsp; &nbsp;
+        <a href="#"><img height="45" src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-ar21.svg"></a>
+        &nbsp; &nbsp;
+        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg"></a>
         &nbsp; &nbsp;
         <br>
         &nbsp;
@@ -45,9 +49,9 @@
       <td>:yellow_square: <b>I'm learning</b></td>
       <td>
         <br>
-        <a href="#"><code><img height="45" src="./mysql-official.svg"></code></a>
+        <a href="#"><img height="45" src="./mysql-official.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="./java-horizontal.svg"></code></a>
+        <a href="#"><img height="45" src="./java-horizontal.svg"></a>
         &nbsp; &nbsp;
         <br>
         &nbsp;
@@ -57,23 +61,21 @@
       <td>:blue_square: <b>I will learn</b></td>
       <td>
         <br>
-        <a href="#"><code><img height="45" src="./docker.svg"></code></a>
+        <a href="#"><img height="45" src="./docker.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="./node.svg"></code></a>
+        <a href="#"><img height="45" src="./node.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg"></code></a>
+        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"></code></a>
+        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="./jest.svg"></code></a>
+        <a href="#"><img height="45" src="./mongo.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="./mongo.svg"></code></a>
+        <a href="#"><img height="45" src="./redis-official.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="./redis-official.svg"></code></a>
+        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"></code></a>
-        &nbsp; &nbsp;
-        <a href="#"><code><img height="45" src="./aws.svg"></code></a>
+        <a href="#"><img height="45" src="./aws.svg"></a>
         <br>
         &nbsp;
       </td>
