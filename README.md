@@ -73,7 +73,7 @@
         &nbsp; &nbsp;
         <a href="#"><img height="45" src="./redis-official.svg"></a>
         &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"></a>
+        <a href="#"><img height="45" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"></a>
         &nbsp; &nbsp;
         <a href="#"><img height="45" src="./aws.svg"></a>
         <br>
@@ -111,3 +111,6 @@
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=DaniloLO53&count_private=true&show_icons=true&hide_title=false&theme=dark"   />
    </a>
 </div>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
