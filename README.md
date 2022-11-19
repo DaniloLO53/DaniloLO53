@@ -104,7 +104,7 @@
     <a href="#">
       <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniloLO53&theme=dark&layout=compact" />
     </a>
-    <a><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=DaniloLO53&layout=compact&theme=dark&custom_title=Wakatime+Stats+(last+7+days)&include_all_commits=true" alt="DaniloLO53" />
+    <a><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=DaniloLO53&layout=compact&theme=dark&custom_title=Wakatime+Stats+(last+7+days)&include_all_commits=true&hide=[JSON, Git]" alt="DaniloLO53" />
     </a>
    </div>
    <a href="#">
