@@ -24,60 +24,37 @@
       <td>:green_square: <b>I have experience with</b></td>
       <td>
         <br>
-        <a href=""><img height="45"   src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="35" src="https://github.com/prplx/svg-logos/blob/master/svg/redux.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-ar21.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg"></a>
-        &nbsp; &nbsp;
-        <br>
-        &nbsp;
+          <img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" />
+          <img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />
+          <img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" />
+          <img src="https://img.shields.io/badge/React-282C34?logo=react&logoColor=61DAFB" alt="React logo" title="React.js / React Native" height="25" />
+          <img src="https://img.shields.io/badge/Redux-282C34?logo=redux&logoColor=764ABC" alt="Redux logo" title="Redux" height="25" />
+          <img src="https://img.shields.io/badge/Jest-282C34?logo=jest&logoColor=cc0000" alt="Jest logo" title="Jest" height="25" />
+          <img src="https://img.shields.io/badge/Github-282C34?logo=github&logoColor=cc0000" alt="Github logo" title="Github" height="25" />
+          <img src="https://img.shields.io/badge/Git-282C34?logo=git&logoColor=cc0000" alt="Git logo" title="Git" height="25" />
+          <img src="https://img.shields.io/badge/Linux-282C34?logo=linux&logoColor=cc0000" alt="Linux logo" title="Linux" height="25" />
       </td>
      <tr>
       <td>:yellow_square: <b>I'm learning</b></td>
       <td>
         <br>
-        <a href="#"><img height="45" src="./mysql-official.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="./java-horizontal.svg"></a>
-        &nbsp; &nbsp;
-        <br>
-        &nbsp;
+          <img src="https://img.shields.io/badge/MySQL-282C34?logo=MySQL&logoColor=f29111" alt="Redux logo" title="MySQL" height="25" />
+          <img src="https://img.shields.io/badge/Java-282C34?logo=java&logoColor=f29111" alt="Java logo" title="Java" height="25" />
       </td>
      </tr>
      <tr>
       <td>:blue_square: <b>I will learn</b></td>
       <td>
         <br>
-        <a href="#"><img height="45" src="./docker.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="./node.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="./mongo.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="./redis-official.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"></a>
-        &nbsp; &nbsp;
-        <a href="#"><img height="45" src="./aws.svg"></a>
-        <br>
-        &nbsp;
+        <img src="https://img.shields.io/badge/PostgreSQL-282C34?logo=postgresql&logoColor=f29111" alt="PostgreSQL logo" title="PostgreSQL" height="25" />
+          <img src="https://img.shields.io/badge/MongoDB-282C34?logo=MongoDB&logoColor=589636" alt="MongoDB logo" title="Mongo" height="25" />
+          <img src="https://img.shields.io/badge/Node.js-282C34?logo=Node.js&logoColor=#339933" alt="Node logo" title="Node" height="25" />
+          <img src="https://img.shields.io/badge/Express-282C34?logo=Express&logoColor=#339933" alt="Express logo" title="Express" height="25" />
+          <img src="https://img.shields.io/badge/Heroku-282C34?logo=Heroku&logoColor=#00989d" alt="Heroku logo" title="Heroku" height="25" />
+          <img src="https://img.shields.io/badge/Redis-282C34?logo=Redis&logoColor=007ACC" alt="Redis logo" title="Redis" height="25" />
+          <img src="https://img.shields.io/badge/Docker-282C34?logo=Docker&logoColor=2496ed" alt="Docker logo" title="Docker" height="25" />
+          <img src="https://img.shields.io/badge/Typescript-282C34?logo=typescript&logoColor=2496ed" alt="Typescript logo" title="Typescript" height="25" />
+        <img src="https://img.shields.io/badge/Amazon_AWS-282C34?logo=amazon-aws&logoColor=2496ed" alt="Amazon_AWS logo" title="Amazon_AWS" height="25" />
       </td>
      </tr>
   </tbody>
