@@ -90,14 +90,18 @@
 </div>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-107%20hrs%2029%20mins-blue)
+
+📊 **This Week I Spent My Time On** 
 
 ```text
-From: 07 December 2022 - To: 14 December 2022
+⌚︎ Time Zone: America/Sao_Paulo
 
-Total Time: 5 hrs 25 mins
+🐱‍💻 Projects: 
+projeto11-trackit        5 hrs 17 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   50.74% 
+projeto10-cineflex       5 hrs 8 mins        ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   49.26%
 
-JavaScript   5 hrs 25 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩   99.88 %
-Other        0 secs          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.12 %
 ```
+
 
 <!--END_SECTION:waka-->
