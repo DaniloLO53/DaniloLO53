@@ -39,16 +39,15 @@
       <td>
         <br>
           <img src="https://img.shields.io/badge/MySQL-282C34?logo=MySQL&logoColor=f29111" alt="Redux logo" title="MySQL" height="25" />
-          <img src="https://img.shields.io/badge/Java-282C34?logo=java&logoColor=f29111" alt="Java logo" title="Java" height="25" />
+          <img src="https://img.shields.io/badge/Node.js-282C34?logo=Node.js&logoColor=#339933" alt="Node logo" title="Node" height="25" />
+          <img src="https://img.shields.io/badge/MongoDB-282C34?logo=MongoDB&logoColor=589636" alt="MongoDB logo" title="Mongo" height="25" />
       </td>
      </tr>
      <tr>
       <td>:blue_square: <b>I will learn</b></td>
       <td>
         <br>
-        <img src="https://img.shields.io/badge/PostgreSQL-282C34?logo=postgresql&logoColor=f29111" alt="PostgreSQL logo" title="PostgreSQL" height="25" />
-          <img src="https://img.shields.io/badge/MongoDB-282C34?logo=MongoDB&logoColor=589636" alt="MongoDB logo" title="Mongo" height="25" />
-          <img src="https://img.shields.io/badge/Node.js-282C34?logo=Node.js&logoColor=#339933" alt="Node logo" title="Node" height="25" />
+        <img src="https://img.shields.io/badge/PostgreSQL-282C34?logo=postgresql&logoColor=f29111" alt="PostgreSQL logo" title="PostgreSQL" height="25" />        
           <img src="https://img.shields.io/badge/Express-282C34?logo=Express&logoColor=#339933" alt="Express logo" title="Express" height="25" />
           <img src="https://img.shields.io/badge/Heroku-282C34?logo=Heroku&logoColor=#00989d" alt="Heroku logo" title="Heroku" height="25" />
           <img src="https://img.shields.io/badge/Redis-282C34?logo=Redis&logoColor=007ACC" alt="Redis logo" title="Redis" height="25" />
@@ -73,8 +72,6 @@
 </ul>
   
 <h1>:chart_with_upwards_trend: Analytics for nerds</h1>
-
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=DaniloLO53&bg_color=0f0f0f&color=e9e9e9&line=A047F7&point=ffffff&area_color=A047F7&area=true&hide_border=true&custom_title=This+is+my+contribution+history)](https://github.com/ashutosh00710/github-readme-activity-graph)
  
 <div align="center">
   <div>
