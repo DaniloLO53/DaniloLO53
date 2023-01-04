@@ -89,7 +89,12 @@
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+From: 27 December 2022 - To: 03 January 2023
+
+Total Time: 44 mins
+
+JavaScript   44 mins         🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩   99.60 %
+Text         0 secs          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.40 %
 ```
 
 <!--END_SECTION:waka-->
