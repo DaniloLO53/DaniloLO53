@@ -86,17 +86,3 @@
    </a>
 </div>
 
-<!--START_SECTION:waka-->
-
-```text
-From: 03 February 2023 - To: 10 February 2023
-
-Total Time: 22 hrs 45 mins
-
-JavaScript   21 hrs 28 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜   93.56 %
-Bash         36 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.68 %
-JSON         28 mins         🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.07 %
-Other        11 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.85 %
-```
-
-<!--END_SECTION:waka-->
