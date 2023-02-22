@@ -7,7 +7,7 @@
 </div>
 <h1>:point_down: Some infos about me</h1>
 <ul>
-  <li><h3>I'm currently majoring Mechanical Engineering at UFRJ</h3></li>
+  <li><h3>I'm currently majoring Computer Engineering at UFRJ</h3></li>
   <li><h3>I also do a Web Development bootcamp called Driven Education</h3></li>
   <li><h3>I'm improving my english skills and want to learn russian someday</h3></li>
 </ul>
