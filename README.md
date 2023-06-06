@@ -28,12 +28,15 @@
           <img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />
           <img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" />
           <img src="https://img.shields.io/badge/Typescript-282C34?logo=typescript&logoColor=2496ed" alt="Typescript logo" title="Typescript" height="25" />
+          <img src="https://img.shields.io/badge/Python-282C34?logo=python&logoColor=2496ed" alt="Python logo" title="Python" height="25" />
       </td>
      <tr>
       <td>:yellow_square: <b>I work with</b></td>
       <td>
         <br>
-           <img src="https://img.shields.io/badge/React-282C34?logo=react&logoColor=61DAFB" alt="React logo" title="React.js / React Native" height="25" />
+          <img src="https://img.shields.io/badge/Django-282C34?logo=django&logoColor=61DAFB" alt="Django logo" title="Django" height="25" />
+          <img src="https://img.shields.io/badge/Flask-282C34?logo=flask&logoColor=61DAFB" alt="Flask logo" title="Flask" height="25" />
+          <img src="https://img.shields.io/badge/React-282C34?logo=react&logoColor=61DAFB" alt="React logo" title="React.js / React Native" height="25" />
           <img src="https://img.shields.io/badge/Redux-282C34?logo=redux&logoColor=764ABC" alt="Redux logo" title="Redux" height="25" />
           <img src="https://img.shields.io/badge/Jest-282C34?logo=jest&logoColor=cc0000" alt="Jest logo" title="Jest" height="25" />
           <img src="https://img.shields.io/badge/Github-282C34?logo=github&logoColor=cc0000" alt="Github logo" title="Github" height="25" />
@@ -43,6 +46,8 @@
           <img src="https://img.shields.io/badge/PostgreSQL-282C34?logo=postgresql&logoColor=f29111" alt="PostgreSQL logo" title="PostgreSQL" height="25" />        
           <img src="https://img.shields.io/badge/Express-282C34?logo=Express&logoColor=#339933" alt="Express logo" title="Express" height="25" />
           <img src="https://img.shields.io/badge/MongoDB-282C34?logo=MongoDB&logoColor=589636" alt="MongoDB logo" title="Mongo" height="25" />
+          <img src="https://img.shields.io/badge/Docker-282C34?logo=Docker&logoColor=2496ed" alt="Docker logo" title="Docker" height="25" />
+          <img src="https://img.shields.io/badge/Amazon_AWS-282C34?logo=amazon-aws&logoColor=2496ed" alt="Amazon_AWS logo" title="Amazon_AWS" height="25" />
       </td>
      </tr>
      <tr>
