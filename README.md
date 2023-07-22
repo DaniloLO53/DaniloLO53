@@ -5,13 +5,6 @@
 <div align="center">
   <h1>Web Developer, Math Lover, Brazilian :brazil:</h1>
 </div>
-<h1>:point_down: Some infos about me</h1>
-<ul>
-  <li><h3>I'm currently majoring Computer Engineering at UFRJ</h3></li>
-  <li><h3>I also do a Web Development bootcamp called Driven Education</h3></li>
-  <li><h3>I'm improving my english skills and want to learn russian someday</h3></li>
-</ul>
-
 <h1> :technologist: My experience </h1>
 
 <table width="100">
