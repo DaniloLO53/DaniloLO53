@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f9;
+    }
+    .container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+    .task {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .task input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .task.done {
+      text-decoration: line-through;
+      color: gray;
+    }
+    #task-list {
+      margin-top: 20px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #007BFF;
+      color: white;
+      font-size: 14px;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    input[type="text"] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .date {
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="date" id="current-date"></div>
+    <div>
+      <input type="text" id="new-task" placeholder="Digite uma nova tarefa">
+      <button onclick="addTask()">Adicionar</button>
+    </div>
+    <div id="task-list"></div>
+    <button onclick="saveTasks()">Encerrar</button>
+  </div>
+
+  <script>
+    // Carrega as tarefas salvas no localStorage ao carregar a página
+    document.addEventListener('DOMContentLoaded', () => {
+      displayCurrentDate();
+      loadTasks();
+    });
+
+    function displayCurrentDate() {
+      const dateElement = document.getElementById('current-date');
+      const today = new Date();
+      const formattedDate = today.toLocaleDateString('pt-BR', {
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+      });
+      dateElement.textContent = `Data de hoje: ${formattedDate}`;
+    }
+
+    function addTask() {
+      const taskInput = document.getElementById('new-task');
+      const taskText = taskInput.value.trim();
+
+      if (taskText === '') {
+        alert('Por favor, insira uma tarefa.');
+        return;
+      }
+
+      const taskList = document.getElementById('task-list');
+
+      // Cria um elemento de tarefa
+      const taskDiv = document.createElement('div');
+      taskDiv.className = 'task';
+
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      
+      const taskLabel = document.createElement('span');
+      taskLabel.textContent = taskText;
+
+      taskDiv.appendChild(checkbox);
+      taskDiv.appendChild(taskLabel);
+
+      taskDiv.onclick = () => {
+        checkbox.checked = !checkbox.checked;
+        taskDiv.classList.toggle('done', checkbox.checked);
+        saveToLocalStorage();
+      };
+
+      taskList.appendChild(taskDiv);
+      taskInput.value = '';
+
+      saveToLocalStorage();
+    }
+
+    function saveTasks() {
+      const tasks = document.querySelectorAll('.task');
+      const taskData = [];
+
+      tasks.forEach(task => {
+        const checkbox = task.querySelector('input[type="checkbox"]');
+        checkbox.checked = false;
+        task.classList.remove('done');
+        const taskText = task.querySelector('span').textContent;
+        taskData.push(`${'[ ]'} ${taskText}`);
+      });
+
+      saveToLocalStorage();
+
+      const blob = new Blob([taskData.join('\n')], { type: 'text/plain' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'todo-list.txt';
+      link.click();
+    }
+
+    function saveToLocalStorage() {
+      const tasks = document.querySelectorAll('.task');
+      const taskData = [];
+
+      tasks.forEach(task => {
+        const isChecked = task.querySelector('input[type="checkbox"]').checked;
+        const taskText = task.querySelector('span').textContent;
+        taskData.push({ text: taskText, done: isChecked });
+      });
+
+      localStorage.setItem('tasks', JSON.stringify(taskData));
+    }
+
+    function loadTasks() {
+      const savedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
+      const taskList = document.getElementById('task-list');
+
+      savedTasks.forEach(task => {
+        const taskDiv = document.createElement('div');
+        taskDiv.className = 'task';
+        if (task.done) {
+          taskDiv.classList.add('done');
+        }
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = task.done;
+        
+        const taskLabel = document.createElement('span');
+        taskLabel.textContent = task.text;
+
+        taskDiv.appendChild(checkbox);
+        taskDiv.appendChild(taskLabel);
+
+        taskDiv.onclick = () => {
+          checkbox.checked = !checkbox.checked;
+          taskDiv.classList.toggle('done', checkbox.checked);
+          saveToLocalStorage();
+        };
+
+        taskList.appendChild(taskDiv);
+      });
+    }
+  </script>
+</body>
+</html>
