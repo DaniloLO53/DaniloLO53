@@ -29,6 +29,7 @@
       align-items: center;
       margin-bottom: 10px;
       cursor: pointer;
+      user-select: none;
     }
     .task input[type="checkbox"] {
       margin-right: 10px;
@@ -67,11 +68,14 @@
       font-size: 16px;
       color: #555;
     }
+    .dragging {
+      opacity: 0.5;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Tarefas</h1>
+    <h1>To-Do List</h1>
     <div class="date" id="current-date"></div>
     <div>
       <input type="text" id="new-task" placeholder="Digite uma nova tarefa">
@@ -85,6 +89,7 @@
     document.addEventListener('DOMContentLoaded', () => {
       displayCurrentDate();
       loadTasks();
+      enableDragAndDrop();
     });
 
     function displayCurrentDate() {
@@ -109,29 +114,32 @@
 
       const taskList = document.getElementById('task-list');
 
-      // Cria um elemento de tarefa
       const taskDiv = document.createElement('div');
       taskDiv.className = 'task';
+      taskDiv.draggable = true;
 
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
-      
+
       const taskLabel = document.createElement('span');
       taskLabel.textContent = taskText;
 
       taskDiv.appendChild(checkbox);
       taskDiv.appendChild(taskLabel);
 
-      taskDiv.onclick = () => {
-        checkbox.checked = !checkbox.checked;
-        taskDiv.classList.toggle('done', checkbox.checked);
-        saveToLocalStorage();
+      taskDiv.onclick = (e) => {
+        if (e.target !== checkbox) {
+          checkbox.checked = !checkbox.checked;
+          taskDiv.classList.toggle('done', checkbox.checked);
+          saveToLocalStorage();
+        }
       };
 
       taskList.appendChild(taskDiv);
       taskInput.value = '';
 
       saveToLocalStorage();
+      enableDragAndDrop();
     }
 
     function saveTasks() {
@@ -175,6 +183,7 @@
       savedTasks.forEach(task => {
         const taskDiv = document.createElement('div');
         taskDiv.className = 'task';
+        taskDiv.draggable = true;
         if (task.done) {
           taskDiv.classList.add('done');
         }
@@ -182,21 +191,66 @@
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.checked = task.done;
-        
+
         const taskLabel = document.createElement('span');
         taskLabel.textContent = task.text;
 
         taskDiv.appendChild(checkbox);
         taskDiv.appendChild(taskLabel);
 
-        taskDiv.onclick = () => {
-          checkbox.checked = !checkbox.checked;
-          taskDiv.classList.toggle('done', checkbox.checked);
-          saveToLocalStorage();
+        taskDiv.onclick = (e) => {
+          if (e.target !== checkbox) {
+            checkbox.checked = !checkbox.checked;
+            taskDiv.classList.toggle('done', checkbox.checked);
+            saveToLocalStorage();
+          }
         };
 
         taskList.appendChild(taskDiv);
       });
+
+      enableDragAndDrop();
+    }
+
+    function enableDragAndDrop() {
+      const tasks = document.querySelectorAll('.task');
+      const taskList = document.getElementById('task-list');
+
+      tasks.forEach(task => {
+        task.addEventListener('dragstart', (e) => {
+          task.classList.add('dragging');
+        });
+
+        task.addEventListener('dragend', (e) => {
+          task.classList.remove('dragging');
+          saveToLocalStorage();
+        });
+      });
+
+      taskList.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        const afterElement = getDragAfterElement(taskList, e.clientY);
+        const draggingTask = document.querySelector('.dragging');
+        if (afterElement == null) {
+          taskList.appendChild(draggingTask);
+        } else {
+          taskList.insertBefore(draggingTask, afterElement);
+        }
+      });
+    }
+
+    function getDragAfterElement(container, y) {
+      const draggableElements = [...container.querySelectorAll('.task:not(.dragging)')];
+
+      return draggableElements.reduce((closest, child) => {
+        const box = child.getBoundingClientRect();
+        const offset = y - box.top - box.height / 2;
+        if (offset < 0 && offset > closest.offset) {
+          return { offset: offset, element: child };
+        } else {
+          return closest;
+        }
+      }, { offset: Number.NEGATIVE_INFINITY }).element;
     }
   </script>
 </body>
