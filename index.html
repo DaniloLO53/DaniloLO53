@@ -325,7 +325,7 @@
         taskDiv.appendChild(buttonsDiv);
 
         taskDiv.onclick = (e) => {
-          if (e.target !== checkbox && e.target !== renameButton && e.target !== deleteButton) {
+          if (e.target !== renameButton && e.target !== deleteButton) {
             checkbox.checked = !checkbox.checked;
             taskDiv.classList.toggle('done', checkbox.checked);
             saveToLocalStorage();
