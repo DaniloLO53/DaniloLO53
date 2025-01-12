@@ -22,14 +22,45 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       text-align: center;
       width: 100%;
-      max-width: 400px;
+      max-width: 500px;
+    }
+    .progress-container {
+      width: 100%;
+      background-color: #ddd;
+      border-radius: 5px;
+      height: 10px;
+      margin-bottom: 20px;
+      position: relative;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .progress-bar {
+      height: 100%;
+      background-color: #28a745;
+      border-radius: 5px;
+      width: 0%;
+      position: absolute;
+      top: 0;
+    }
+    .progress-text {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      line-height: 10px;
+      color: black;
+      font-size: 12px;
     }
     .task {
       display: flex;
+      justify-content: space-between;
       align-items: center;
       margin-bottom: 10px;
       cursor: pointer;
       user-select: none;
+    }
+    .task .task-content {
+      display: flex;
+      align-items: center;
     }
     .task input[type="checkbox"] {
       margin-right: 10px;
@@ -40,6 +71,28 @@
     }
     #task-list {
       margin-top: 20px;
+    }
+    .task-buttons {
+      display: flex;
+      gap: 10px;
+    }
+    .rename-btn, .delete-btn {
+      padding: 5px;
+      font-size: 12px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .rename-btn:hover, .delete-btn:hover {
+      background-color: #218838;
+    }
+    .delete-btn {
+      background-color: #dc3545;
+    }
+    .delete-btn:hover {
+      background-color: #c82333;
     }
     button {
       margin-top: 10px;
@@ -75,6 +128,10 @@
 </head>
 <body>
   <div class="container">
+    <div class="progress-container">
+      <div id="progress-bar" class="progress-bar"></div>
+      <div id="progress-text" class="progress-text"><strong>0% concluído</strong></div>
+    </div>
     <h1>To-Do List</h1>
     <div class="date" id="current-date"></div>
     <div>
@@ -103,6 +160,17 @@
       dateElement.textContent = `Data de hoje: ${formattedDate}`;
     }
 
+    function updateProgressBar() {
+      const tasks = document.querySelectorAll('.task');
+      const completedTasks = document.querySelectorAll('.task.done');
+      const progressBar = document.getElementById('progress-bar');
+      const progressText = document.getElementById('progress-text');
+      const progressPercentage = (completedTasks.length / tasks.length) * 100;
+
+      progressBar.style.width = `${progressPercentage}%`;
+      progressText.textContent = `${Math.round(progressPercentage)}% concluído`;
+    }
+
     function addTask() {
       const taskInput = document.getElementById('new-task');
       const taskText = taskInput.value.trim();
@@ -118,21 +186,58 @@
       taskDiv.className = 'task';
       taskDiv.draggable = true;
 
+      const taskContentDiv = document.createElement('div');
+      taskContentDiv.className = 'task-content';
+
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
 
       const taskLabel = document.createElement('span');
       taskLabel.textContent = taskText;
 
-      taskDiv.appendChild(checkbox);
-      taskDiv.appendChild(taskLabel);
+      taskContentDiv.appendChild(checkbox);
+      taskContentDiv.appendChild(taskLabel);
+
+      const buttonsDiv = document.createElement('div');
+      buttonsDiv.className = 'task-buttons';
+
+      const renameButton = document.createElement('button');
+      renameButton.textContent = 'Renomear';
+      renameButton.className = 'rename-btn';
+
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = 'Excluir';
+      deleteButton.className = 'delete-btn';
+
+      buttonsDiv.appendChild(renameButton);
+      buttonsDiv.appendChild(deleteButton);
+
+      taskDiv.appendChild(taskContentDiv);
+      taskDiv.appendChild(buttonsDiv);
 
       taskDiv.onclick = (e) => {
-        if (e.target !== checkbox) {
+        if (e.target !== checkbox && e.target !== renameButton && e.target !== deleteButton) {
           checkbox.checked = !checkbox.checked;
           taskDiv.classList.toggle('done', checkbox.checked);
           saveToLocalStorage();
+          updateProgressBar();
         }
+      };
+
+      renameButton.onclick = (e) => {
+        e.stopPropagation();
+        const newName = prompt('Renomeie a tarefa:', taskLabel.textContent);
+        if (newName) {
+          taskLabel.textContent = newName;
+          saveToLocalStorage();
+        }
+      };
+
+      deleteButton.onclick = (e) => {
+        e.stopPropagation();
+        taskDiv.remove();
+        saveToLocalStorage();
+        updateProgressBar();
       };
 
       taskList.appendChild(taskDiv);
@@ -140,6 +245,7 @@
 
       saveToLocalStorage();
       enableDragAndDrop();
+      updateProgressBar();
     }
 
     function saveTasks() {
@@ -188,6 +294,9 @@
           taskDiv.classList.add('done');
         }
 
+        const taskContentDiv = document.createElement('div');
+        taskContentDiv.className = 'task-content';
+
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.checked = task.done;
@@ -195,20 +304,55 @@
         const taskLabel = document.createElement('span');
         taskLabel.textContent = task.text;
 
-        taskDiv.appendChild(checkbox);
-        taskDiv.appendChild(taskLabel);
+        taskContentDiv.appendChild(checkbox);
+        taskContentDiv.appendChild(taskLabel);
+
+        const buttonsDiv = document.createElement('div');
+        buttonsDiv.className = 'task-buttons';
+
+        const renameButton = document.createElement('button');
+        renameButton.textContent = 'Renomear';
+        renameButton.className = 'rename-btn';
+
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Excluir';
+        deleteButton.className = 'delete-btn';
+
+        buttonsDiv.appendChild(renameButton);
+        buttonsDiv.appendChild(deleteButton);
+
+        taskDiv.appendChild(taskContentDiv);
+        taskDiv.appendChild(buttonsDiv);
 
         taskDiv.onclick = (e) => {
-          if (e.target !== checkbox) {
+          if (e.target !== checkbox && e.target !== renameButton && e.target !== deleteButton) {
             checkbox.checked = !checkbox.checked;
             taskDiv.classList.toggle('done', checkbox.checked);
             saveToLocalStorage();
+            updateProgressBar();
           }
+        };
+
+        renameButton.onclick = (e) => {
+          e.stopPropagation();
+          const newName = prompt('Renomeie a tarefa:', taskLabel.textContent);
+          if (newName) {
+            taskLabel.textContent = newName;
+            saveToLocalStorage();
+          }
+        };
+
+        deleteButton.onclick = (e) => {
+          e.stopPropagation();
+          taskDiv.remove();
+          saveToLocalStorage();
+          updateProgressBar();
         };
 
         taskList.appendChild(taskDiv);
       });
 
+      updateProgressBar();
       enableDragAndDrop();
     }
 
