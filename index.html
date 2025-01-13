@@ -261,17 +261,11 @@
       });
 
       saveToLocalStorage();
-      const today = new Date();
-      const formattedDate = today.toLocaleDateString('pt-BR', {
-        day: '2-digit',
-        month: '2-digit',forma
-        year: 'numeric',
-      })
-
+      
       const blob = new Blob([taskData.join('\n')], { type: 'text/plain' });
       const link = document.createElement('a');
       link.href = URL.createObjectURL(blob);
-      link.download = formattedDate + '.txt';
+      link.download = 'todo-list.txt';
       link.click();
     }
 
